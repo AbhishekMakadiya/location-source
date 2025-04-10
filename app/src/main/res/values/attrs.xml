@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--view-->
+    <declare-styleable name="MyCustomView">
+        <attr name="MyViewBackgroundColor" format="color" />
+        <attr name="MyViewCorRadius" format="dimension" />
+    </declare-styleable>
+
+    <!--https://stackoverflow.com/questions/4434327/same-named-attributes-in-attrs-xml-for-custom-view-->
+    <declare-styleable name="MyFontsFamilyStyle">
+        <attr name="myFontFamily">
+            <enum name="regular" value="1" />
+            <enum name="medium" value="2" />
+            <enum name="semiBold" value="3" />
+            <enum name="bold" value="4" />
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="MyCustomButton">
+        <attr name="myFontFamily" />
+        <attr name="MyBtnBackgroundStrokeColor" format="color" />
+        <attr name="MyBtnBackgroundStrokeSize" format="integer" />
+        <attr name="MyBtnBackgroundColor" format="color" />
+        <attr name="MyBtnCorRadiusTopLeft" format="dimension" />
+        <attr name="MyBtnCorRadiusTopRight" format="dimension" />
+        <attr name="MyBtnCorRadiusBottomRight" format="dimension" />
+        <attr name="MyBtnCorRadiusBottomLeft" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="MyCustomCheckBox">
+        <attr name="myFontFamily" />
+    </declare-styleable>
+
+    <declare-styleable name="MyCustomRadioButton">
+        <attr name="myFontFamily" />
+    </declare-styleable>
+    <declare-styleable name="MyCustomTextView">
+        <attr name="myFontFamily" />
+        <attr name="MyBackgroundStrokeColor" format="color" />
+        <attr name="MyBackgroundStrokeSize" format="integer" />
+        <attr name="MyBackgroundColor" format="color" />
+        <attr name="MyCorRadiusTopLeft" format="dimension" />
+        <attr name="MyCorRadiusTopRight" format="dimension" />
+        <attr name="MyCorRadiusBottomRight" format="dimension" />
+        <attr name="MyCorRadiusBottomLeft" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="MyCustomEditText">
+        <attr name="myFontFamily" />
+        <attr name="MyEdtBackgroundColor" format="color" />
+        <attr name="MyEdtBackgroundStrokeColor" format="color" />
+        <attr name="MyEdtBackgroundStrokeSize" format="integer" />
+        <attr name="MyEdtCorRadiusTopLeft" format="dimension" />
+        <attr name="MyEdtCorRadiusTopRight" format="dimension" />
+        <attr name="MyEdtCorRadiusBottomRight" format="dimension" />
+        <attr name="MyEdtCorRadiusBottomLeft" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="MyCustomSpinner">
+        <attr name="MySpiBackgroundColor" format="color" />
+        <attr name="MySpiBackgroundStrokeColor" format="color" />
+        <attr name="MySpiBackgroundStrokeSize" format="integer" />
+        <attr name="MySpiCorRadiusTopLeft" format="dimension" />
+        <attr name="MySpiCorRadiusTopRight" format="dimension" />
+        <attr name="MySpiCorRadiusBottomRight" format="dimension" />
+        <attr name="MySpiCorRadiusBottomLeft" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="MyCustomTextInputEditText">
+        <attr name="myFontFamily" />
+        <attr name="MyTIETBackgroundColor" format="color" />
+        <attr name="MyTIETBackgroundStrokeColor" format="color" />
+        <attr name="MyTIETBackgroundStrokeSize" format="integer" />
+        <attr name="MyTIETCorRadiusTopLeft" format="dimension" />
+        <attr name="MyTIETCorRadiusTopRight" format="dimension" />
+        <attr name="MyTIETCorRadiusBottomRight" format="dimension" />
+        <attr name="MyTIETCorRadiusBottomLeft" format="dimension" />
+    </declare-styleable>
+
+
+    <!--relative layout-->
+    <declare-styleable name="MyCustomRelativeLayout">
+        <attr name="MyRelBackgroundColor" format="color" />
+        <attr name="MyRelCorRadiusTopLeft" format="dimension" />
+        <attr name="MyRelCorRadiusTopRight" format="dimension" />
+        <attr name="MyRelCorRadiusBottomRight" format="dimension" />
+        <attr name="MyRelCorRadiusBottomLeft" format="dimension" />
+    </declare-styleable>
+
+    <!--ConstraintLayout layout-->
+    <declare-styleable name="MyCustomConstraintLayout">
+        <attr name="MyConBackgroundStrokeColor" format="color" />
+        <attr name="MyConBackgroundStrokeSize" format="integer" />
+        <attr name="MyConBackgroundColor" format="color" />
+        <attr name="MyConCorRadiusTopLeft" format="dimension" />
+        <attr name="MyConCorRadiusTopRight" format="dimension" />
+        <attr name="MyConCorRadiusBottomRight" format="dimension" />
+        <attr name="MyConCorRadiusBottomLeft" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="SpannedGridLayoutManager">
+        <attr name="android:orientation" />
+        <attr name="spanCount" />
+        <attr name="aspectRatio" format="string" />
+    </declare-styleable>
+</resources>

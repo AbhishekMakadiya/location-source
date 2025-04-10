@@ -1,0 +1,152 @@
+<resources>
+    <string name="app_name">Location Source</string>
+
+    <!--retrofit error msg-->
+    <string name="error_no_internet">No internet connection</string>
+    <string name="error_match_not_started_yet">Match has not started yet.</string>
+    <string name="error_connect">Connection Error</string>
+    <string name="something_want_wrong">Something went wrong. Please try again.</string>
+    <string name="something_want_server">Something went wrong at server</string>
+    <string name="request_error_time_out">Time Out, Please retry</string>
+    <string name="request_error_auth_failure">AuthFailureError</string>
+    <string name="request_error_server">ServerError</string>
+    <string name="request_error_parse">ParseError</string>
+    <string name="request_error_network">NetworkError</string>
+    <string name="request_error_no_response">No response from server</string>
+    <string name="request_error_no_response_login">No data getting in response from server</string>
+    <!--End retrofit error msg-->
+
+    <!--FCM-->
+    <string name="default_notification_channel_id">com.location.location.message</string>
+    <string name="notification_name">Message Notification</string>
+    <string name="please_wait">Please wait</string>
+    <string name="token_not_found">Fcm token not found.</string>
+    <string name="fcm_token_not_received">Fcm token information not found</string>
+    <string name="fetch_token_information">Fetching token information…</string>
+    <string name="retry">Retry</string>
+    <string name="save">Save</string>
+    <!--End FCM-->
+
+
+    <!--image picker-->
+    <string name="file_provider_authority" translatable="false">com.location.location.provider</string>
+    <string name="prompt_please_wait">Please wait</string>
+    <string name="prompt_max_image_file_size">Maximum file size is 2MB</string>
+    <string name="choose_photo_for_pin_location">Place picture</string>
+    <string name="choose_video_photo">Choose picture or video</string>
+    <string name="error_image">Please select Image</string>
+    <string name="choose_photo">Choose image</string>
+    <string name="select_edit_option">Select edit option</string>
+    <string name="pick_image_intent_text">Choose an image</string>
+    <string name="retake">Retake</string>
+    <string name="use">Use</string>
+    <string name="use_photo">Choose</string>
+    <string name="ucrop_error_input_data_is_absent">Both input and output Uri must be specified</string>
+    <string name="message_permission">You can change permission using app info setting</string>
+    <string name="title_camera_permission">Camera permission need to use this application</string>
+    <string name="title_storage_permission">Storage permission need to use this application</string>
+    <string name="max_file_size">File size exceeds the maximum allowed size of 100 MB. Please select a smaller file.</string>
+    <!--End image picker-->
+
+    <string name="choose_option">Choose Option</string>
+
+    <string name="permissions_camera_required">Camera permission are required. Please enable them in App Settings.</string>
+    <string name="permissions_storage_required">Photos and Storage permissions are required. Please enable them in App Settings.</string>
+
+    <!--Start Common Strings-->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="try_again">Try Again</string>
+    <string name="send_to">Send to</string>
+    <string name="go_to_settings">Go To Settings</string>
+    <string name="logOut">Logout</string>
+    <string name="logout_msg">This user is no longer registered with Location Source on this phone. This might be because you registered it on another phone.</string>
+    <string name="logout">Logout</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="logout_title">You have been logged out</string>
+    <string name="logout_confirmation">Are you sure you want to logout?</string>
+    <string name="remove_confirmation">Are you sure you want to remove?</string>
+    <!--End Common Strings-->
+    <string name="login">Login</string>
+    <string name="get_otp">Get OTP</string>
+    <string name="note_colon">terms of services</string>
+    <string name="note_withdrawal_tds">By continuing you agree to</string>
+    <string name="terms_of_services">terms of services</string>
+    <string name="privacy_policy">privacy policy</string>
+    <string name="and">and</string>
+    <string name="enter_mobile_number">Enter mobile number</string>
+
+    <string name="percentage_format">%s%%</string>
+    <string name="current_gain">%1s (%2s%%)</string>
+
+    <string name="intro_message">An Innovative Simulator that integrates every branch of Physics</string>
+    <string name="get_started">Get Started</string>
+    <string name="welcome">Welcome!</string>
+    <string name="sing_in_to_continue">Sign in to continue</string>
+    <string name="username_or_email">Username or Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="create_new_account1">Create new account?</string>
+    <string name="signup1">Signup</string>
+    <string name="signin">Signin</string>
+    <string name="do_you_have_account">Do you have account?</string>
+    <string name="signup">Sign Up</string>
+    <string name="create_new_account">Create new account</string>
+    <string name="create_account">Create Account</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="select_country">Select Country</string>
+    <string name="forgot_passowrd">Forgot Password</string>
+    <string name="enter_email_or_mobile_to_reset_password">Enter email or mobile to reset your password</string>
+    <string name="reset_password">Reset password</string>
+
+    <string name="home">Home</string>
+    <string name="simulations">Simulations</string>
+    <string name="bag">Bag</string>
+    <string name="more">More</string>
+
+    <string name="all_simulations">All Simulations</string>
+    <string name="privacy">Privacy</string>
+    <string name="t_and_c">T&amp;C</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="terms_condition">Terms &amp; Conditions</string>
+
+    <string name="message">Message</string>
+    <string name="send_message">Send Message</string>
+    <string name="or">Or</string>
+    <string name="call">Call</string>
+
+    <string name="search">Search</string>
+    <string name="search_simulations">Search Simulations</string>
+    <string name="type">Type</string>
+    <string name="lbl_options">Options</string>
+    <string name="exit">Edit</string>
+
+    <string name="error_mobile_number">Please enter a mobile number.</string>
+    <string name="error_invalid_mobile_number">Please enter a valid mobile number.</string>
+    <string name="error_otp">Please enter a OTP.</string>
+    <string name="error_invalid_otp">Please enter a valid OTP.</string>
+    <string name="error_name">Please enter name.</string>
+    <string name="error_key">Please enter License Key.</string>
+    <string name="error_invalid_email">Please enter valid email address.</string>
+    <string name="error_old_password">Please enter Old Password.</string>
+    <string name="error_password">Please enter Password.</string>
+    <string name="error_instituter">Please enter Institute Name.</string>
+    <string name="error_new_password">Please enter New Password.</string>
+    <string name="error_confirm_password">Please enter Confirm Password.</string>
+    <string name="error_new_and_confirm_password_not_match">New Password and Confirm Password both are not same.</string>
+    <string name="error_message">Please enter message.</string>
+
+    <string name="rupees_value">₹%s</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="institute_name">Institute Name</string>
+    <string name="last_name">Last Name</string>
+
+
+
+    <string name="place_list">Place List</string>
+    <string name="error_no_data">No Data Found</string>
+    <string name="preview_map">Preview Map</string>
+</resources>

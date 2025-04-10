@@ -1,0 +1,125 @@
+{
+  "project_info": {
+    "project_number": "5493789414",
+    "firebase_url": "https://testingproject-d5a44-default-rtdb.firebaseio.com",
+    "project_id": "testingproject-d5a44",
+    "storage_bucket": "testingproject-d5a44.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:5493789414:android:5a2c01272232e7f06ae127",
+        "android_client_info": {
+          "package_name": "com.allinpay.autoreadsms"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPHZv__58sVSHvPbAmeS8idrDxmNcUQ_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:5493789414:android:01e82e8617f61dbc6ae127",
+        "android_client_info": {
+          "package_name": "com.chat.chatapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPHZv__58sVSHvPbAmeS8idrDxmNcUQ_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:5493789414:android:eaf8c5defb8957996ae127",
+        "android_client_info": {
+          "package_name": "com.forceone.forceone"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPHZv__58sVSHvPbAmeS8idrDxmNcUQ_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:5493789414:android:232ee50eeec384cc6ae127",
+        "android_client_info": {
+          "package_name": "com.kwi.kinzwinindia"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPHZv__58sVSHvPbAmeS8idrDxmNcUQ_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:5493789414:android:1820e8ec583d8b216ae127",
+        "android_client_info": {
+          "package_name": "com.paymentgateway.pg"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPHZv__58sVSHvPbAmeS8idrDxmNcUQ_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:5493789414:android:813a5791066af3c96ae127",
+        "android_client_info": {
+          "package_name": "com.location.location"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPHZv__58sVSHvPbAmeS8idrDxmNcUQ_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

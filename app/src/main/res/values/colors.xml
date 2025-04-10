@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#000000</color>
+
+    <color name="transparent">#00000000</color>
+
+    <color name="colorBlack">#FF000000</color>
+    <color name="colorBlack20">#33000000</color>
+    <color name="colorWhite">#FFFFFFFF</color>
+    <color name="colorGreen">#00AA00</color>
+    <color name="colorRed">#DC0000</color>
+    <color name="colorOrange">#EE7E21</color>
+    <color name="colorOrangeLight">#FA9D08</color>
+    <color name="colorBlueDark">#0D5283</color>
+
+    <color name="colorGrey">#DCDCDC</color>
+    <color name="colorDivider">#EDEDED</color>
+
+    <color name="colorBackground">#F5F5F5</color>
+    <color name="colorBackgroundLightGreen">#E6F2F1</color>
+    <color name="colorBackgroundDarkGreen">#CCE5E3</color>
+    <color name="colorBackgroundLightOrange">#FFEBDD</color>
+    <color name="colorBackgroundRed">#F91F3E</color>
+
+    <color name="textColorBlack">#1E2843</color>
+    <color name="textColorBlack1">#575757</color>
+    <color name="textColorWhite">#FFFFFF</color>
+    <color name="textColorDarkBlue">#0D5283</color>
+    <color name="textColorGreen">#00AB9D</color>
+    <color name="textColorGray">#818282</color>
+    <color name="textColorOrange">#CC641A</color>
+    <color name="textColorHint">#A1A6B3</color>
+
+    <color name="colorBackgroundWhite">#FDFDFD</color>
+    <color name="colorChipGray">#F7F7F7</color>
+    <color name="colorChipYellow">#FEEBCE</color>
+
+
+    <color name="colorGray">#dedede</color>
+</resources>

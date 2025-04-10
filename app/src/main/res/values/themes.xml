@@ -1,0 +1,136 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.LocationSource" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <item name="colorPrimary">@color/colorBlack</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorAccent</item>
+        <item name="colorSecondaryVariant">@color/colorAccent</item>
+        <item name="colorOnSecondary">@color/colorBlack</item>
+
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+
+        <item name="android:popupBackground">@color/transparent</item>
+        <!--<item name="android:colorBackground">@color/colorTransparent</item>-->
+
+        <item name="android:textColor">@color/textColorBlack</item>
+        <item name="actionMenuTextColor">@color/colorBlack</item>
+        <!--This line changes the color of text in Toolbar-->
+        <item name="android:textColorPrimary">@color/textColorBlack</item>
+        <!--This line changes the color of icons in toolbar (back, overflow menu icons)-->
+        <item name="android:textColorSecondary">@color/textColorBlack</item>
+        <!-- Menu Items -->
+        <item name="background">@color/transparent</item>
+        <!--set BottomSheetDialog Theme-->
+        <item name="bottomSheetDialogTheme">@style/AppBottomSheetDialogTheme</item>
+    </style>
+
+    <style name="Theme.LocationSource" parent="Base.Theme.LocationSource" />
+
+    <style name="ToolbarTheme" parent="ThemeOverlay.AppCompat.Dark">
+        <!--This is for change actionBar SearchView hint text color-->
+        <item name="colorControlNormal">@color/colorBlack</item>
+        <item name="actionMenuTextColor">@color/textColorBlack</item>
+
+    </style>
+
+    <style name="DatePickerTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppBottomSheetDialogTheme" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+    </style>
+
+    <style name="AppModalStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+    <style name="BottomNavTextStyle" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textSize">@dimen/_6ssp</item>
+        <item name="android:paddingBottom">0dp</item>
+    </style>
+
+    <style name="Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/transparent</item>
+    </style>
+
+
+    <style name="ShapeAppearanceOverlayCircleImageView" parent="">
+        <item name="cornerSize">50%</item>
+    </style>
+    <style name="ShapeAppearanceOverlayRadius5" parent="">
+        <item name="cornerSize">@dimen/_4sdp</item>
+    </style>
+    <style name="ShapeAppearanceOverlayRadius10" parent="">
+        <item name="cornerSize">@dimen/_8sdp</item>
+    </style>
+    <style name="ShapeAppearanceOverlayRadius12" parent="">
+        <item name="cornerSize">@dimen/_9sdp</item>
+    </style>
+    <style name="ShapeAppearanceOverlayRadius16" parent="">
+        <item name="cornerSize">@dimen/_12sdp</item>
+    </style>
+    <style name="ShapeAppearanceOverlayRadius24" parent="">
+        <item name="cornerSize">@dimen/_17sdp</item>
+    </style>
+    <style name="ShapeAppearanceOverlayRadius30" parent="">
+        <item name="cornerSize">@dimen/_22sdp</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlayRadius18" parent="">
+        <item name="cornerSize">@dimen/_13sdp</item>
+    </style>
+    <style name="ShapeAppearanceOverlayRadius20" parent="">
+        <item name="cornerSize">@dimen/_15sdp</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlayRadius40" parent="">
+        <item name="cornerSize">@dimen/_28sdp</item>
+    </style>
+
+
+    <style name="TextMoreOptions">
+        <item name="android:paddingTop">@dimen/_10sdp</item>
+        <item name="android:paddingBottom">@dimen/_10sdp</item>
+        <item name="android:paddingStart">@dimen/_12sdp</item>
+        <item name="android:paddingEnd">@dimen/_12sdp</item>
+        <item name="android:textColor">@color/textColorHint</item>
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:drawablePadding">@dimen/_12sdp</item>
+    </style>
+
+    <style name="TextMoreOptionsDivider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/_1dp</item>
+        <item name="android:background">@color/colorDivider</item>
+        <item name="android:layout_marginTop">@dimen/_8sdp</item>
+        <item name="android:layout_marginBottom">@dimen/_8sdp</item>
+    </style>
+
+    <style name="EditTextProfile">
+        <item name="android:paddingTop">@dimen/_10sdp</item>
+        <item name="android:paddingBottom">@dimen/_10sdp</item>
+        <item name="android:paddingStart">@dimen/_12sdp</item>
+        <item name="android:paddingEnd">@dimen/_12sdp</item>
+        <item name="android:drawablePadding">@dimen/_10sdp</item>
+        <item name="android:textColorHint">@color/textColorHint</item>
+        <item name="android:textColor">@color/textColorBlack</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:background">@color/transparent</item>
+    </style>
+
+</resources>

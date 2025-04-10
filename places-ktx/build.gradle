@@ -1,0 +1,77 @@
+/*
+ * Copyright 2024 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ */
+
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+
+android {
+    lint {
+        sarifOutput = file("$buildDir/reports/lint-results.sarif")
+    }
+
+    defaultConfig {
+        minSdk 23
+        targetSdk 34
+        compileSdkVersion 34
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles 'consumer-rules.pro'
+        multiDexEnabled true
+    }
+
+    // 👇 Add this if androidTest builds are causing issues
+    testOptions {
+        unitTests {
+            includeAndroidResources = true
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8.toString()
+        freeCompilerArgs += '-Xexplicit-api=strict'
+    }
+
+    testOptions {
+        unitTests.returnDefaultValues = true
+    }
+    namespace "com.google.android.libraries.places.ktx"
+}
+
+dependencies {
+    // NEW (example versions)
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:2.0.20"
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.1"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2"
+    implementation "com.android.volley:volley:1.2.1"
+    implementation "androidx.multidex:multidex:2.0.1"
+    implementation "com.google.android.gms:play-services-places:17.1.0"
+    implementation 'com.google.android.material:material:1.11.0' // or latest
+    implementation libs.places
+
+    // Tests
+    testImplementation "androidx.test.ext:junit:1.1.5"
+    testImplementation "androidx.test:core:1.5.0"
+    testImplementation "org.mockito.kotlin:mockito-kotlin:5.2.1"
+    testImplementation "junit:junit:4.13.2"
+    testImplementation "org.mockito:mockito-core:5.11.0"
+    testImplementation "com.google.truth:truth:1.1.5"
+
+}

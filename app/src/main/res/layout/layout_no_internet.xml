@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/noInternetLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:visibility="gone">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgNodata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_no_data"
+            android:visibility="visible" />
+
+        <com.location.location.views.MyCustomTextView
+            android:id="@+id/txtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textSize="16sp"
+            android:textColor="@color/textColorBlack"
+            android:visibility="gone"
+            app:myFontFamily="semiBold" />
+
+        <com.location.location.views.MyCustomTextView
+            android:id="@+id/txtMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:gravity="center"
+            android:layout_marginHorizontal="12dp"
+            android:text="@string/error_no_internet"
+            android:textSize="20sp"
+            android:textColor="@color/textColorBlack"
+            app:myFontFamily="medium"/>
+
+        <com.location.location.views.MyCustomButton
+            android:id="@+id/btnRetry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="8dp"
+            android:paddingHorizontal="@dimen/_20sdp"
+            android:text="@string/try_again"
+            android:textColor="@color/textColorWhite"
+            android:visibility="gone"
+            app:myFontFamily="semiBold"
+            app:MyBtnBackgroundColor="@color/colorGreen"
+            app:MyBtnCorRadiusTopLeft="@dimen/_8sdp"
+            app:MyBtnCorRadiusTopRight="@dimen/_8sdp"
+            app:MyBtnCorRadiusBottomLeft="@dimen/_8sdp"
+            app:MyBtnCorRadiusBottomRight="@dimen/_8sdp"/>
+    </LinearLayout>
+</RelativeLayout>

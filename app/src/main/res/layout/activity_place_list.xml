@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+
+    <include
+        android:id="@+id/include"
+        layout="@layout/layout_toolbar" />
+
+
+    <com.location.location.views.MyCustomConstraintLayout
+        android:id="@+id/mLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:elevation="@dimen/_4sdp"
+        app:MyConBackgroundColor="@color/colorBackgroundWhite"
+        app:MyConCorRadiusTopLeft="@dimen/_20sdp"
+        app:MyConCorRadiusTopRight="@dimen/_20sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/mRecyclerViewCategory"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginEnd="8dp"
+            android:paddingBottom="@dimen/_10dp"
+            app:layout_constraintBottom_toTopOf="@+id/imgButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <include
+            android:id="@+id/lyNoInternet"
+            layout="@layout/layout_no_internet" />
+
+        <include
+            android:id="@+id/lyProgress"
+            layout="@layout/progress_view_layout" />
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/imgButton"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:visibility="visible"
+            android:layout_marginBottom="@dimen/_14sdp"
+            android:layout_marginRight="@dimen/_20dp"
+            app:srcCompat="@drawable/ic_add"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/btnPreviewMap"/>
+
+        <com.location.location.views.MyCustomTextView
+            android:id="@+id/btnPreviewMap"
+            android:layout_width="@dimen/_zero_dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_14sdp"
+            android:minHeight="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:paddingVertical="@dimen/_6sdp"
+            android:paddingHorizontal="@dimen/_8sdp"
+            android:textColor="@color/textColorWhite"
+            android:text="@string/preview_map"
+            android:textSize="@dimen/_12ssp"
+            android:gravity="center"
+            android:fontFamily="@font/inter_semi_bold"
+            android:drawableEnd="@drawable/ic_arrow_right"
+            app:MyBackgroundColor="@color/colorOrange"
+            app:MyCorRadiusTopLeft="@dimen/_7sdp"
+            app:MyCorRadiusTopRight="@dimen/_7sdp"
+            app:MyCorRadiusBottomLeft="@dimen/_7sdp"
+            app:MyCorRadiusBottomRight="@dimen/_7sdp"
+            android:layout_marginBottom="@dimen/_10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edtCountryCode" />
+
+
+    </com.location.location.views.MyCustomConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
