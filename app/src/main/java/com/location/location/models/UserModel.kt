@@ -35,7 +35,7 @@ data class UserModel(
     @SerializedName("mobile")
     var mobile: String? = "",
     @SerializedName("photo")
-    var photo: String? = "", // https://simphy.com/logo.png
+    var photo: String? = "", // https://demo.com/logo.png
     @SerializedName("pin")
     var pin: String? = "",
     @SerializedName("state")

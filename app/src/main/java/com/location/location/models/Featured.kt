@@ -13,7 +13,7 @@ data class FeaturedModel(
             @SerializedName("discription")
             var discription: String = "", // Create and simulate DC and AC circuit diagrams with basic circuit elements.
             @SerializedName("photo")
-            var photo: String = "", // https://simulation.simphy.com/data/ut7VsMPRxJ826g3GDInQypvEHe9T1wh6SOF07dNL0iqUojmX4W.webp
+            var photo: String = "", // https://simulation.demo.com/data/ut7VsMPRxJ826g3GDInQypvEHe9T1wh6SOF07dNL0iqUojmX4W.webp
             @SerializedName("title")
             var title: String = "", // Circuit Simulator
             @SerializedName("url")

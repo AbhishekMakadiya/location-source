@@ -13,9 +13,9 @@ data class FiltersModel(
 ): Serializable {
     data class AuthorModel(
         @SerializedName("id")
-        var id: String = "", // Simphy
+        var id: String = "", // demo
         @SerializedName("title")
-        var title: String = "", // Simphy
+        var title: String = "", // demo
         var isSelected: Boolean = false // Added isSelected field
     ):Serializable {
         override fun equals(other: Any?): Boolean {

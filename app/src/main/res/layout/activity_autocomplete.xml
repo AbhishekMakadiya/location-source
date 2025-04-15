@@ -27,15 +27,4 @@
         app:layout_constraintEnd_toEndOf="parent" />
 
 
-    <androidx.appcompat.widget.AppCompatImageView
-        android:id="@+id/imgButton"
-        android:layout_width="@dimen/_40sdp"
-        android:layout_height="@dimen/_40sdp"
-        android:visibility="visible"
-        android:layout_marginEnd="@dimen/_40sdp"
-        android:layout_marginBottom="@dimen/_40sdp"
-        app:srcCompat="@drawable/ic_place_delete"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"/>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

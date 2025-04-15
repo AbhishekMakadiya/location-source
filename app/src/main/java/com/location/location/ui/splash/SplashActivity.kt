@@ -24,19 +24,6 @@ class SplashActivity : BaseActivity<ActivitySplashBinding>(){
 
             PlaceListActivity.startActivity(mContext)
             finish()
-            /*if (mPreferenceManager.getUserFirstTime()) {
-                PreLaunchActivity.startActivity(mContext)
-                finish()
-            } else {
-                if (mPreferenceManager.getUserLogin()) {
-                    HomeActivity.startActivity(mContext)
-                    finish()
-                } else {
-                    LoginActivity.startActivity(mContext)
-                    finish()
-                }
-            }*/
-
         }, 1200)
     }
 

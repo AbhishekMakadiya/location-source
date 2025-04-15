@@ -28,7 +28,7 @@ import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
 
 @AndroidEntryPoint
-class AutocompleteDemoActivity : BaseActivity<ActivityAutocompleteBinding>(), OnMapReadyCallback, View.OnClickListener {
+class AutocompleteDemoActivity : BaseActivity<ActivityAutocompleteBinding>(), OnMapReadyCallback {
 
     private lateinit var mMap: GoogleMap
     private val mPlaceViewModel: PlaceViewModel by viewModels()
@@ -49,14 +49,6 @@ class AutocompleteDemoActivity : BaseActivity<ActivityAutocompleteBinding>(), On
         isEditMode = existingPlace != null
     }
 
-    override fun onClick(v: View?) {
-        when (v) {
-            mBinding.imgButton -> {
-                PlaceListActivity.startActivity(mContext)
-                finish()
-            }
-        }
-    }
 
     override fun bindViews() {
         val mapFragment = supportFragmentManager.findFragmentById(R.id.map) as SupportMapFragment
@@ -129,8 +121,6 @@ class AutocompleteDemoActivity : BaseActivity<ActivityAutocompleteBinding>(), On
                 }
             }
         }
-
-        mBinding.imgButton.setOnClickListener(this)
     }
 
     override fun onMapReady(googleMap: GoogleMap) {
